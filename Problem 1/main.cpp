@@ -41,7 +41,7 @@ void update(const std::string &username, int timestamp, const json &values) {
 	
 	User &user = users[username];
 	
-	// Store a list of all values that are updated
+	// Store a list of all values that are actually changed
 	json updated_values;
 	
 	for (auto &element : values.items()) {
@@ -58,9 +58,8 @@ void update(const std::string &username, int timestamp, const json &values) {
 	if (updated_values.size() && user.friends.size()) {
 		
 		json friends;
-		for (const std::string &fr : user.friends) {
+		for (const std::string &fr : user.friends)
 			friends.push_back(fr);
-		}
 		
 		json message;
 		message["broadcast"] = friends;
@@ -95,8 +94,6 @@ int main(int argc, char *argv[]) {
 	
 	// Read JSON lines from file
 	for (std::string line; std::getline(input_file, line);) {
-		
-		// cout << "Reading line: " << line << endl;
 		
 		json command = json::parse(line);
 		

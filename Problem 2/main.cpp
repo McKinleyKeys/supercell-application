@@ -92,7 +92,8 @@ int main(int argc, char *argv[]) {
 	input_stream.close();
 	
 	// Populate the user database with all the users' names.
-	// If we try to modify the std::map while processing the updates, there could be a segmentation fault.
+	// This makes sure that we don't have to modify the std::map while
+	// processing updates, which could cause a segmentation fault.
 	// (Alternative solution: make updating the map thread-safe.)
 	for (auto &command : input_file)
 		User &u = users[command["user"]];
