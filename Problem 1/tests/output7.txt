@@ -1,0 +1,1 @@
+{"broadcast":["bbb"],"timestamp":10,"user":"aaa","values":{"foo":"10"}}

@@ -1,0 +1,10 @@
+{"broadcast":["bbb"],"timestamp":1,"user":"aaa","values":{"foo":"1"}}
+{"broadcast":["bbb"],"timestamp":2,"user":"aaa","values":{"foo":"2"}}
+{"broadcast":["bbb"],"timestamp":3,"user":"aaa","values":{"foo":"3"}}
+{"broadcast":["bbb"],"timestamp":4,"user":"aaa","values":{"foo":"4"}}
+{"broadcast":["bbb"],"timestamp":5,"user":"aaa","values":{"foo":"5"}}
+{"broadcast":["bbb"],"timestamp":6,"user":"aaa","values":{"foo":"6"}}
+{"broadcast":["bbb"],"timestamp":7,"user":"aaa","values":{"foo":"7"}}
+{"broadcast":["bbb"],"timestamp":8,"user":"aaa","values":{"foo":"8"}}
+{"broadcast":["bbb"],"timestamp":9,"user":"aaa","values":{"foo":"9"}}
+{"broadcast":["bbb"],"timestamp":10,"user":"aaa","values":{"foo":"10"}}

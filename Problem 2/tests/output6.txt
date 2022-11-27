@@ -1,0 +1,11 @@
+{
+    "a": {
+        "armor": "light",
+        "hp": "100",
+        "weapon": "bow"
+    },
+    "b": {
+        "armor": "heavy",
+        "weapon": "empty"
+    }
+}

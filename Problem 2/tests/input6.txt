@@ -1,0 +1,10 @@
+{"type":"update","user":"a","timestamp":1,"values":{"weapon":"sword","armor":"heavy"}}
+{"type":"update","user":"b","timestamp":2,"values":{"weapon":"sword","armor":"heavy"}}
+{"type":"update","user":"a","timestamp":3,"values":{"weapon":"bow","armor":"light"}}
+{"type":"update","user":"b","timestamp":4,"values":{"armor":"heavy"}}
+{"type":"update","user":"a","timestamp":5,"values":{"weapon":"sword","armor":"heavy"}}
+{"type":"update","user":"b","timestamp":6,"values":{"armor":"light"}}
+{"type":"update","user":"a","timestamp":7,"values":{"weapon":"bow","armor":"heavy","hp":"100"}}
+{"type":"update","user":"b","timestamp":8,"values":{"armor":"heavy"}}
+{"type":"update","user":"a","timestamp":9,"values":{"armor":"light"}}
+{"type":"update","user":"b","timestamp":10,"values":{"weapon":"empty"}}

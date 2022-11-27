@@ -1,0 +1,3 @@
+{ "type": "make_friends", "user1": "aaa", "user2": "bbb" }
+{ "type": "del_friends", "user1": "bbb", "user2": "aaa" }
+{ "type": "update", "user": "bbb", "timestamp": 99, "values": { "foo": "bar", "baz": "crux" }}

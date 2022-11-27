@@ -1,0 +1,8 @@
+{ "type": "make_friends", "user1": "aaa", "user2": "bbb" }
+{ "type": "update", "user": "aaa", "timestamp": 100, "values": { "foo": "bar" }}
+{ "type": "make_friends", "user1": "bbb", "user2": "ccc" }
+{ "type": "make_friends", "user1": "ccc", "user2": "aaa" }
+{ "type": "update", "user": "aaa", "timestamp": 99, "values": { "foo": "baz", "baz": "crux" }}
+{ "type": "update", "user": "fff", "timestamp": 100, "values": { "foo": "bar", "baz": "crux" }}
+{ "type": "update", "user": "aaa", "timestamp": 101, "values": { "foo": "baz" }}
+{ "type": "update", "user": "bbb", "timestamp": 102, "values": { "baz": "crux" }}

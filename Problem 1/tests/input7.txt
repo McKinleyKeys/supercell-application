@@ -1,0 +1,11 @@
+{ "type": "make_friends", "user1": "aaa", "user2": "bbb" }
+{ "type": "update", "user": "aaa", "timestamp": 10, "values": { "foo": "10" }}
+{ "type": "update", "user": "aaa", "timestamp": 9, "values": { "foo": "9" }}
+{ "type": "update", "user": "aaa", "timestamp": 8, "values": { "foo": "8" }}
+{ "type": "update", "user": "aaa", "timestamp": 7, "values": { "foo": "7" }}
+{ "type": "update", "user": "aaa", "timestamp": 6, "values": { "foo": "6" }}
+{ "type": "update", "user": "aaa", "timestamp": 5, "values": { "foo": "5" }}
+{ "type": "update", "user": "aaa", "timestamp": 4, "values": { "foo": "4" }}
+{ "type": "update", "user": "aaa", "timestamp": 3, "values": { "foo": "3" }}
+{ "type": "update", "user": "aaa", "timestamp": 2, "values": { "foo": "2" }}
+{ "type": "update", "user": "aaa", "timestamp": 1, "values": { "foo": "1" }}

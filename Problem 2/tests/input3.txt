@@ -1,0 +1,2 @@
+{"type":"update","user":"123-456","timestamp":2,"values":{"bar":"baz","foo":"a"}}
+{"type":"update","user":"123-456","timestamp":1,"values":{"bar":"crux","other":"blah"}}

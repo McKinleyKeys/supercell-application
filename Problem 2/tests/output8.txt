@@ -1,0 +1,11 @@
+{
+    "123-456": {
+        "aaa": "bbb",
+        "baz": "cruuuuuuuuuux",
+        "ccc": "ddd"
+    },
+    "ab": {
+        "baz": "crux",
+        "foo": "bar"
+    }
+}

@@ -1,0 +1,5 @@
+{ "type": "update", "user": "ab", "timestamp": 100, "values": { "foo": "bar" }}
+{ "type": "update", "user": "ab", "timestamp": 99, "values": { "foo": "bar" }}
+{ "type": "update", "user": "ab", "timestamp": 100, "values": { "foo": "bar" }}
+{ "type": "update", "user": "ab", "timestamp": 101, "values": { "foo": "bar" }}
+{ "type": "update", "user": "ab", "timestamp": 102, "values": { "foo": "barf" }}

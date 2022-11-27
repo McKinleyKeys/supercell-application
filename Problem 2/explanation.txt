@@ -1,0 +1,4 @@
+
+I use 1 lock per user so that individual users cannot be modified by multiple threads simultaneously. This has a potential pitfall: if one user is being updated 1,000,000 times per second, things will be slow!
+
+However, in real games, a user will be doing only a few actions per second (collecting gold/elixir, deploying troops, etc.). They can't tap their screens 1,000,000 times per second!

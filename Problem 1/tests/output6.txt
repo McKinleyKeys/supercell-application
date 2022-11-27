@@ -1,0 +1,4 @@
+{"broadcast":["bbb"],"timestamp":100,"user":"aaa","values":{"foo":"bar"}}
+{"broadcast":["bbb","ccc"],"timestamp":99,"user":"aaa","values":{"baz":"crux"}}
+{"broadcast":["bbb","ccc"],"timestamp":101,"user":"aaa","values":{"foo":"baz"}}
+{"broadcast":["aaa","ccc"],"timestamp":102,"user":"bbb","values":{"baz":"crux"}}
